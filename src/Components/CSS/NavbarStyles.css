@@ -79,7 +79,7 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background: white;
+        background: rgb(70, 175, 251);
         width: 100%;
         height: auto;
         position: absolute;
@@ -125,7 +125,7 @@ button:hover {
         width: 80%;
         background: #01959a;
         text-decoration: none;
-        color: #fff;
+        color: #000000;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;

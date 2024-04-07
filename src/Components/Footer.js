@@ -1,63 +1,53 @@
 import React from "react";
 
+import LogoImage from "../Assets/Logo.png"; // Import your logo image
+
 const Footer = () => {
     return (
         <div className="footer" style={{ backgroundColor: "#5a2fb9" }}>
             <div className="sb__footer section_padding" style={{ display: 'flex', flexDirection: 'column' }}>
                 <div className="sb__footer-links" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', width: '100%', textAlign: 'left', marginBottom: '0rem' }}>
-                    <div className="sb__footer-links_div" style={{ width: '120px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
-                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>For Business</h4>
-                        <a href="/employer" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Employer</p>
-                        </a>
-                        <a href="/healthplan" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Health plan</p>
-                        </a>
-                        <a href="/individuals" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Individuals</p>
-                        </a>
-                    </div>
+
                     <div className="sb__footer-links-div" style={{ width: '150px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
-                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Resources</h4>
-                        <a href="/resource" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Resource Center</p>
+                        <div className="logo-section" style={{ display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
+                            <img src={LogoImage} alt="AT DIGITAL Logo" className="footer-logo" style={{ width: '150px' }} /> 
+                            
+                            {/* Adjust width as needed */}
+                        </div>
+                        <a href="/employer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Your goal is our target. Not anything in between. 
+                            We use online marketing platforms and tools to achieve single objective - your business results.</p>
                         </a>
-                        <a href="/healthplan" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Sri Lankan Travel Agency</p>
+
+
+                    </div>
+                    <div className="sb__footer-links_div" style={{ width: '150px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
+                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Our Technologies</h4>
+                        <a href="/employer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>ReactJS</p>
                         </a>
-                        <a href="/individuals" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Individuals</p>
+                        <a href="/employer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Gatsby</p>
+                        </a>
+                        <a href="/employer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>NextJS</p>
+                        </a>
+                        <a href="/employer" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>NodeJS</p>
                         </a>
                     </div>
                     <div className="sb__footer-links_div" style={{ width: '150px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
-                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Partners</h4>
-                        <a href="/employer" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Shanuka Distributors</p>
+                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Our Services</h4>
+                        <a href="/about" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Social Media Marketing</p>
                         </a>
-                        <a href="/employer" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Travel Guide PVT.LTD</p>
+                        <a href="/press" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Web & Mobile App Development</p>
                         </a>
-                        <a href="/employer" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Solo Hiker.com</p>
+                        <a href="/career" style={{ color: 'white', textDecoration: 'none' }}>
+                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Data & Analytics</p>
                         </a>
-                    </div>
-                    <div className="sb__footer-links_div" style={{ width: '150px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
-                        <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Company</h4>
-                        <a href="/about" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>About Us</p>
-                        </a>
-                        <a href="/press" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Email : slodyssey23@gmailcom</p>
-                        </a>
-                        <a href="/career" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>Portfolio</p>
-                        </a>
-                        <a href="/conatact" style={{ color: 'rgb(175, 175, 179)', textDecoration: 'none' }}>
-                            <p style={{ fontSize: '12px', lineHeight: '15px', margin: '0.5rem', cursor: 'pointer' }}>
-                                Contact : 
-                                071 0623285   034 2250186
-                                 </p>
-                        </a>
+
                     </div>
                     <div className="sb__footer-links_div" style={{ width: '150px', margin: '1rem', display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', color: 'white' }}>
                         <h4 style={{ fontSize: '16px', lineHeight: '17px', marginBottom: '0.9rem', color: 'white' }}>Stay With Us</h4>
@@ -73,15 +63,22 @@ const Footer = () => {
                 <div className="sb__footer-below" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '0.2rem' }}>
                     <div className="sb__footer-copyright" style={{ fontSize: '13px', lineHeight: '15px', color: 'rgb(255, 255, 255)', fontWeight: '600' }}>
                         <p>
-                            @{new Date().getFullYear()} Shanu. All right reserved.
+                            @{new Date().getFullYear()} Shanuka. All right reserved.
                         </p>
                     </div>
-                    <div className="sb__footer-below-links" style={{ display: 'flex', flexDirection: 'row' }}>
-                        <a href="/terms" style={{ textDecoration: 'none' }}><div style={{ fontSize: '13px', lineHeight: '15px', marginLeft: '2rem', color: 'white', fontWeight: '600' }}><p>Terms & Conditions</p></div></a>
-                        <a href="/privacy" style={{ textDecoration: 'none' }}><div style={{ fontSize: '13px', lineHeight: '15px', marginLeft: '2rem', color: 'white', fontWeight: '600' }}><p>Privacy</p></div></a>
-                        <a href="/security" style={{ textDecoration: 'none' }}><div style={{ fontSize: '13px', lineHeight: '15px', marginLeft: '2rem', color: 'white', fontWeight: '600' }}><p>Security</p></div></a>
-                        <a href="/cookie" style={{ textDecoration: 'none' }}><div style={{ fontSize: '13px', lineHeight: '15px', marginLeft: '2rem', color: 'white', fontWeight: '600' }}><p>Cookie Declaraction</p></div></a>
+                    <div className="sb__footer-below-links" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+                        <a href="/terms" style={{ textDecoration: 'none' }}>
+                            <div style={{ fontSize: '13px', lineHeight: '15px', marginRight: '2rem', color: 'white', fontWeight: '600' }}>
+                                <p>Terms & Conditions</p>
+                            </div>
+                        </a>
+                        <a href="/privacy" style={{ textDecoration: 'none' }}>
+                            <div style={{ fontSize: '13px', lineHeight: '15px', marginRight: '40rem', color: 'white', fontWeight: '600' }}>
+                                <p>Privacy</p>
+                            </div>
+                        </a>
                     </div>
+
                 </div>
             </div>
         </div>
